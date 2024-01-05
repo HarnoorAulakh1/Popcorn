@@ -149,6 +149,20 @@ export function Display() {
           add={setWatched}
           setWatched={setWatched}
         />
+        <div className="credits">
+          <p ><p style={{fontSize:"12px"}}>Made by</p><b> H.S Aulakh </b></p><br />
+          <div className="links">            
+          <a href="https://www.github.com/HarnoorAulakh16/">
+            <button className="bttn">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+          </button>
+          </a>
+          <a href="https://www.linkedin.com/in/harnoor-singh-aulakh-046140226/">
+          <button className="bttn" >
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" /></button>
+          </a>
+          </div>
+        </div>
       </main>
     </>
   );
