@@ -95,7 +95,7 @@ export function Display() {
     axios
       .get(`https://www.omdbapi.com/?apikey=${key}&s=${query}`,{signal:controller.signal})
       .then((res) => {
-        movieSet([]);
+        setError("Loading...");
         setLoader(true);
         //console.log(query);
         if (res.data.Search) {
